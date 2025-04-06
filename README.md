@@ -1,4 +1,4 @@
-# FragGenotyoer README
+# FragGenotyper README
 
 code by zhanghaobo
 
