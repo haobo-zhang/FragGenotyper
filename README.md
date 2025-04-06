@@ -4,6 +4,9 @@ code by zhanghaobo
 
 written in 2024.11
 
+Please send me an email if you have any questions
+hbzhang1999@gmail.com
+
 FragGenotyoer The data can be typed and classified according to the fragment SNP. The software is a cross-platform "low" resolution genotyping software written in python.
 
 
