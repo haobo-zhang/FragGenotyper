@@ -184,7 +184,12 @@ SSE line chart (.png); Tre file (.tre)
 
 ## License
 
-FragGenotyper is licensed under the GNU General Public License v3.0.  
-Copyright (C) 2025 [Your Name]
+FragGenotyper is licensed under the **GNU General Public License v3.0**.  
+Copyright (C) 2025 **zhanghaobo**
 
-You may obtain a copy of the License at [https://www.gnu.org/licenses/gpl-3.0.en.html](https://www.gnu.org/licenses/gpl-3.0.en.html).
+You may obtain a copy of the license at:  
+[https://www.gnu.org/licenses/gpl-3.0.en.html](https://www.gnu.org/licenses/gpl-3.0.en.html)
+
+This software is distributed in the hope that it will be useful,  
+but WITHOUT ANY WARRANTY; without even the implied warranty of  
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
