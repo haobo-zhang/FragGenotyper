@@ -181,3 +181,10 @@ Results of typing data (.csv)
 ![image-20250406162549653](./README.assets/image-20250406162549653.png)
 
 SSE line chart (.png); Tre file (.tre)
+
+## License
+
+FragGenotyper is licensed under the GNU General Public License v3.0.  
+Copyright (C) 2025 [Your Name]
+
+You may obtain a copy of the License at [https://www.gnu.org/licenses/gpl-3.0.en.html](https://www.gnu.org/licenses/gpl-3.0.en.html).
