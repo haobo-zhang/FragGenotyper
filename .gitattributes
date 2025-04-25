@@ -2,3 +2,4 @@ app/* filter=lfs diff=lfs merge=lfs -text
 app/*.exe filter=lfs diff=lfs merge=lfs -text
 app/*.app filter=lfs diff=lfs merge=lfs -text
 app/*.zip filter=lfs diff=lfs merge=lfs -text
+app/FragGenotyper_V*.exe filter=lfs diff=lfs merge=lfs -text
