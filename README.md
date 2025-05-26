@@ -9,7 +9,33 @@ hbzhang1999@gmail.com
 
 FragGenotyoer The data can be typed and classified according to the fragment SNP. The software is a cross-platform "low" resolution genotyping software written in python.
 
+⚠️ Large File Notice (Git LFS Required)
 
+This project includes large files (e.g., models, datasets) managed using Git Large File Storage (LFS).
+To properly clone and use the project, please ensure Git LFS is installed on your system.
+
+💻 Install Git LFS
+	•	macOS:
+```sh
+brew install git-lfs
+```
+	•	Ubuntu / Debian:
+```sh
+sudo apt-get install git-lfs
+```
+	•	Windows:
+Download the installer from https://git-lfs.com
+
+📦 Fetch LFS Files
+
+After cloning the repository, run the following commands to download LFS-managed files:
+```sh
+git lfs install
+git lfs pull
+```
+Without Git LFS, you will only see pointer files, not the actual content.
+
+If you don't know what to do, please contact me（hbzhang1999@gmail.com）! 😊
 
 ## Installation instructions
 
