@@ -15,16 +15,21 @@ This project includes large files (e.g., models, datasets) managed using Git Lar
 To properly clone and use the project, please ensure Git LFS is installed on your system.
 
 💻 Install Git LFS
+
 	•	macOS:
-```sh
-brew install git-lfs
-```
+ 
+	```sh
+	brew install git-lfs
+	```
+ 
 	•	Ubuntu / Debian:
-```sh
-sudo apt-get install git-lfs
-```
+ 
+	```sh
+	sudo apt-get install git-lfs
+	```
+ 
 	•	Windows:
-Download the installer from https://git-lfs.com
+	Download the installer from https://git-lfs.com
 
 📦 Fetch LFS Files
 
