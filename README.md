@@ -213,6 +213,13 @@ Results of typing data (.csv)
 
 SSE line chart (.png); Tre file (.tre)
 
+## note
+This part can change the Language（In the red box）
+
+
+<img width="366" height="644" alt="image" src="https://github.com/user-attachments/assets/89ee2355-0518-4af6-a724-0061539d3070" />
+
+
 ## License
 
 FragGenotyper is licensed under the **GNU General Public License v3.0**.  
