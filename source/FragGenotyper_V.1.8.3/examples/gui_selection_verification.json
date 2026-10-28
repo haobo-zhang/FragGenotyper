@@ -1,0 +1,10 @@
+{
+  "real_checkbox_mouse_click": true,
+  "selected": [
+    "Genotype000",
+    "Genotype002"
+  ],
+  "all_groups_in_phenotype": 3,
+  "preview_export": "examples/selected_haplotypes_gui.png",
+  "screenshot": "examples/genotype_selection_interface.png"
+}

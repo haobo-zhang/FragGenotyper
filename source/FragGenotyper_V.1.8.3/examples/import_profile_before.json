@@ -1,0 +1,470 @@
+{
+  "software_version": "1.8.0",
+  "measurement_date_Asia_Shanghai": "2026-10-26",
+  "python": "3.12.5",
+  "architecture": "arm64",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "method": "One run per size with cProfile during populate_columns; separate CSV read and prepare_data timers. Qt offscreen. Three observations per group, two CSV input tables, one phenotype. QApplication/widget construction and scientific-module import excluded.",
+  "limitations": "Synthetic timing on this Mac; cProfile adds overhead. Not a benchmark of the user original dataset. Values are measurements, not a prediction for another machine.",
+  "measurements": [
+    {
+      "groups": 30,
+      "samples": 90,
+      "valid_rows": 90,
+      "expected_comparisons": 435,
+      "qt_item_counts": {
+        "groups": 30,
+        "pair_list": 435,
+        "annotations_list": 435,
+        "label_table_rows": 30
+      },
+      "seconds": {
+        "csv_read_genotypes": 0.005491792006068863,
+        "csv_read_phenotypes": 0.001081583002815023,
+        "csv_read_total": 0.006573375008883886,
+        "prepare_data_direct": 0.007688915997277945,
+        "populate_columns_total": 0.016597624999121763,
+        "prepare_data_within_populate": 0.007140250000000001,
+        "rebuild_pair_lists": 0.005718583,
+        "rebuild_labels": 0.001291292,
+        "refresh_groups": 0.015812625,
+        "rebuild_traits": 0.016145542000000002,
+        "read_and_populate_total": 0.02317100000800565
+      },
+      "call_counts": {
+        "prepare_data": 1,
+        "rebuild_pair_lists": 1,
+        "rebuild_labels": 1,
+        "add_check_item": 901
+      },
+      "top_cumulative_profile": [
+        {
+          "file": "phenotype_tab.py",
+          "line": 409,
+          "function": "populate_columns",
+          "calls": 1,
+          "self_seconds": 1.804e-05,
+          "cumulative_seconds": 0.0165545
+        },
+        {
+          "file": "phenotype_tab.py",
+          "line": 433,
+          "function": "rebuild_traits",
+          "calls": 1,
+          "self_seconds": 2.8250000000000002e-05,
+          "cumulative_seconds": 0.016145542000000002
+        },
+        {
+          "file": "phenotype_tab.py",
+          "line": 493,
+          "function": "refresh_groups",
+          "calls": 1,
+          "self_seconds": 6.3489e-05,
+          "cumulative_seconds": 0.015812625
+        },
+        {
+          "file": "phenotype_tab.py",
+          "line": 518,
+          "function": "groups_changed",
+          "calls": 1,
+          "self_seconds": 1.7251e-05,
+          "cumulative_seconds": 0.007431667
+        },
+        {
+          "file": "phenotype_tab.py",
+          "line": 451,
+          "function": "prepare_current_data",
+          "calls": 1,
+          "self_seconds": 2.1835e-05,
+          "cumulative_seconds": 0.007172875
+        },
+        {
+          "file": "haplotype_phenotype.py",
+          "line": 95,
+          "function": "prepare_data",
+          "calls": 1,
+          "self_seconds": 0.00011138100000000001,
+          "cumulative_seconds": 0.007140250000000001
+        },
+        {
+          "file": "phenotype_tab.py",
+          "line": 465,
+          "function": "add_check_item",
+          "calls": 901,
+          "self_seconds": 0.001532836,
+          "cumulative_seconds": 0.005794213
+        },
+        {
+          "file": "phenotype_tab.py",
+          "line": 554,
+          "function": "rebuild_pair_lists",
+          "calls": 1,
+          "self_seconds": 0.000390455,
+          "cumulative_seconds": 0.005718583
+        },
+        {
+          "file": "haplotype_phenotype.py",
+          "line": 62,
+          "function": "_labels",
+          "calls": 3,
+          "self_seconds": 1.4793e-05,
+          "cumulative_seconds": 0.0019827910000000002
+        },
+        {
+          "file": "frame.py",
+          "line": 10840,
+          "function": "merge",
+          "calls": 1,
+          "self_seconds": 6.207e-06,
+          "cumulative_seconds": 0.0018314160000000002
+        },
+        {
+          "file": "merge.py",
+          "line": 135,
+          "function": "merge",
+          "calls": 1,
+          "self_seconds": 9.752e-06,
+          "cumulative_seconds": 0.0018252090000000002
+        },
+        {
+          "file": "enum.py",
+          "line": 1551,
+          "function": "__or__",
+          "calls": 901,
+          "self_seconds": 0.000598422,
+          "cumulative_seconds": 0.001353531
+        },
+        {
+          "file": "phenotype_tab.py",
+          "line": 582,
+          "function": "rebuild_labels",
+          "calls": 1,
+          "self_seconds": 0.000203386,
+          "cumulative_seconds": 0.001291292
+        },
+        {
+          "file": "merge.py",
+          "line": 737,
+          "function": "__init__",
+          "calls": 1,
+          "self_seconds": 3.1709000000000004e-05,
+          "cumulative_seconds": 0.0012069580000000002
+        },
+        {
+          "file": "enum.py",
+          "line": 726,
+          "function": "__call__",
+          "calls": 2048,
+          "self_seconds": 0.00043707900000000005,
+          "cumulative_seconds": 0.001074201
+        }
+      ]
+    },
+    {
+      "groups": 100,
+      "samples": 300,
+      "valid_rows": 300,
+      "expected_comparisons": 4950,
+      "qt_item_counts": {
+        "groups": 100,
+        "pair_list": 4950,
+        "annotations_list": 4950,
+        "label_table_rows": 100
+      },
+      "seconds": {
+        "csv_read_genotypes": 0.0014662500034319237,
+        "csv_read_phenotypes": 0.001164291999884881,
+        "csv_read_total": 0.0026305420033168048,
+        "prepare_data_direct": 0.0037061670009279624,
+        "populate_columns_total": 0.07904416599194519,
+        "prepare_data_within_populate": 0.008306833000000001,
+        "rebuild_pair_lists": 0.064213833,
+        "rebuild_labels": 0.002840958,
+        "refresh_groups": 0.078560083,
+        "rebuild_traits": 0.078655792,
+        "read_and_populate_total": 0.081674707995262
+      },
+      "call_counts": {
+        "prepare_data": 1,
+        "rebuild_pair_lists": 1,
+        "rebuild_labels": 1,
+        "add_check_item": 10001
+      },
+      "top_cumulative_profile": [
+        {
+          "file": "phenotype_tab.py",
+          "line": 409,
+          "function": "populate_columns",
+          "calls": 1,
+          "self_seconds": 1.8207e-05,
+          "cumulative_seconds": 0.079004209
+        },
+        {
+          "file": "phenotype_tab.py",
+          "line": 433,
+          "function": "rebuild_traits",
+          "calls": 1,
+          "self_seconds": 4.2418e-05,
+          "cumulative_seconds": 0.078655792
+        },
+        {
+          "file": "phenotype_tab.py",
+          "line": 493,
+          "function": "refresh_groups",
+          "calls": 1,
+          "self_seconds": 0.000142337,
+          "cumulative_seconds": 0.078560083
+        },
+        {
+          "file": "phenotype_tab.py",
+          "line": 518,
+          "function": "groups_changed",
+          "calls": 1,
+          "self_seconds": 5.6459e-05,
+          "cumulative_seconds": 0.068093042
+        },
+        {
+          "file": "phenotype_tab.py",
+          "line": 554,
+          "function": "rebuild_pair_lists",
+          "calls": 1,
+          "self_seconds": 0.004173125000000001,
+          "cumulative_seconds": 0.064213833
+        },
+        {
+          "file": "phenotype_tab.py",
+          "line": 465,
+          "function": "add_check_item",
+          "calls": 10001,
+          "self_seconds": 0.016370680000000002,
+          "cumulative_seconds": 0.060544551
+        },
+        {
+          "file": "enum.py",
+          "line": 1551,
+          "function": "__or__",
+          "calls": 10001,
+          "self_seconds": 0.006385012000000001,
+          "cumulative_seconds": 0.014532063000000001
+        },
+        {
+          "file": "phenotype_tab.py",
+          "line": 451,
+          "function": "prepare_current_data",
+          "calls": 1,
+          "self_seconds": 2.4877000000000003e-05,
+          "cumulative_seconds": 0.008342
+        },
+        {
+          "file": "haplotype_phenotype.py",
+          "line": 95,
+          "function": "prepare_data",
+          "calls": 1,
+          "self_seconds": 0.000143793,
+          "cumulative_seconds": 0.008306833000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method setFlags>",
+          "calls": 10001,
+          "self_seconds": 0.003846897,
+          "cumulative_seconds": 0.007787550000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method setCheckState>",
+          "calls": 10001,
+          "self_seconds": 0.004726339,
+          "cumulative_seconds": 0.0068691870000000006
+        },
+        {
+          "file": "enum.py",
+          "line": 726,
+          "function": "__call__",
+          "calls": 20805,
+          "self_seconds": 0.004341588,
+          "cumulative_seconds": 0.006855661000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method flags>",
+          "calls": 10001,
+          "self_seconds": 0.0031984110000000004,
+          "cumulative_seconds": 0.006767562
+        },
+        {
+          "file": "enum.py",
+          "line": 202,
+          "function": "__get__",
+          "calls": 30206,
+          "self_seconds": 0.004319912,
+          "cumulative_seconds": 0.006130932
+        },
+        {
+          "file": "enum.py",
+          "line": 1544,
+          "function": "_get_value",
+          "calls": 30403,
+          "self_seconds": 0.0035746080000000004,
+          "cumulative_seconds": 0.005185244
+        }
+      ]
+    },
+    {
+      "groups": 200,
+      "samples": 600,
+      "valid_rows": 600,
+      "expected_comparisons": 19900,
+      "qt_item_counts": {
+        "groups": 200,
+        "pair_list": 19900,
+        "annotations_list": 19900,
+        "label_table_rows": 200
+      },
+      "seconds": {
+        "csv_read_genotypes": 0.0018735409976216033,
+        "csv_read_phenotypes": 0.0016629169986117631,
+        "csv_read_total": 0.0035364579962333664,
+        "prepare_data_direct": 0.004114666997338645,
+        "populate_columns_total": 0.3067268330050865,
+        "prepare_data_within_populate": 0.008984583,
+        "rebuild_pair_lists": 0.28637775000000004,
+        "rebuild_labels": 0.005381375000000001,
+        "refresh_groups": 0.30626179200000003,
+        "rebuild_traits": 0.306348917,
+        "read_and_populate_total": 0.3102632910013199
+      },
+      "call_counts": {
+        "prepare_data": 1,
+        "rebuild_pair_lists": 1,
+        "rebuild_labels": 1,
+        "add_check_item": 40001
+      },
+      "top_cumulative_profile": [
+        {
+          "file": "phenotype_tab.py",
+          "line": 409,
+          "function": "populate_columns",
+          "calls": 1,
+          "self_seconds": 1.7126000000000002e-05,
+          "cumulative_seconds": 0.30668916700000004
+        },
+        {
+          "file": "phenotype_tab.py",
+          "line": 433,
+          "function": "rebuild_traits",
+          "calls": 1,
+          "self_seconds": 4.2375e-05,
+          "cumulative_seconds": 0.306348917
+        },
+        {
+          "file": "phenotype_tab.py",
+          "line": 493,
+          "function": "refresh_groups",
+          "calls": 1,
+          "self_seconds": 0.000252996,
+          "cumulative_seconds": 0.30626179200000003
+        },
+        {
+          "file": "phenotype_tab.py",
+          "line": 518,
+          "function": "groups_changed",
+          "calls": 1,
+          "self_seconds": 7.4707e-05,
+          "cumulative_seconds": 0.29378712500000004
+        },
+        {
+          "file": "phenotype_tab.py",
+          "line": 554,
+          "function": "rebuild_pair_lists",
+          "calls": 1,
+          "self_seconds": 0.016534971000000002,
+          "cumulative_seconds": 0.28637775000000004
+        },
+        {
+          "file": "phenotype_tab.py",
+          "line": 465,
+          "function": "add_check_item",
+          "calls": 40001,
+          "self_seconds": 0.096918684,
+          "cumulative_seconds": 0.27086516
+        },
+        {
+          "file": "enum.py",
+          "line": 1551,
+          "function": "__or__",
+          "calls": 40001,
+          "self_seconds": 0.025129649,
+          "cumulative_seconds": 0.057204311
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method setFlags>",
+          "calls": 40001,
+          "self_seconds": 0.015119802000000002,
+          "cumulative_seconds": 0.030891285
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method setCheckState>",
+          "calls": 40001,
+          "self_seconds": 0.018732394,
+          "cumulative_seconds": 0.02670563
+        },
+        {
+          "file": "enum.py",
+          "line": 726,
+          "function": "__call__",
+          "calls": 81605,
+          "self_seconds": 0.016845736,
+          "cumulative_seconds": 0.026508839000000003
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method flags>",
+          "calls": 40001,
+          "self_seconds": 0.012454408,
+          "cumulative_seconds": 0.026444682
+        },
+        {
+          "file": "enum.py",
+          "line": 202,
+          "function": "__get__",
+          "calls": 120406,
+          "self_seconds": 0.016753898,
+          "cumulative_seconds": 0.023838877
+        },
+        {
+          "file": "enum.py",
+          "line": 1544,
+          "function": "_get_value",
+          "calls": 120803,
+          "self_seconds": 0.013941991,
+          "cumulative_seconds": 0.020236531000000002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method setData>",
+          "calls": 40001,
+          "self_seconds": 0.016688248000000003,
+          "cumulative_seconds": 0.016688248000000003
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method addItem>",
+          "calls": 40001,
+          "self_seconds": 0.01601232,
+          "cumulative_seconds": 0.01601232
+        }
+      ]
+    }
+  ]
+}

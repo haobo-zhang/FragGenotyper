@@ -1,0 +1,126 @@
+{
+  "version": "1.8.3",
+  "timestamp_utc": "2026-10-27T00:30:38.527997+00:00",
+  "host": {
+    "system": "Darwin",
+    "architecture": "arm64",
+    "python": "3.12.5"
+  },
+  "regression": {
+    "passed": 180,
+    "warnings": 1,
+    "warning": "Expected SciPy precision loss for constant/near-constant fixture.",
+    "log": "regression_tests.log"
+  },
+  "theme_validation": {
+    "focused_theme_tests": 15,
+    "gui_integration_tests": 4,
+    "tested_text_palette_contrast_minimum": 4.5,
+    "palette_states": [
+      "active",
+      "inactive",
+      "disabled"
+    ],
+    "modes": [
+      "system",
+      "light",
+      "dark"
+    ],
+    "retained_scientific_figure_style": true,
+    "retained_analysis_and_selection": true,
+    "native_arrows_and_header_clipping_visually_verified": true
+  },
+  "visual_qa": {
+    "passes": [
+      {
+        "mode": "light",
+        "effective_theme": "light",
+        "analysis_preserved": true,
+        "selected_groups_preserved": true,
+        "white_figure_preserved": true
+      },
+      {
+        "mode": "dark",
+        "effective_theme": "dark",
+        "analysis_preserved": true,
+        "selected_groups_preserved": true,
+        "white_figure_preserved": true
+      },
+      {
+        "mode": "light",
+        "effective_theme": "light",
+        "analysis_preserved": true,
+        "selected_groups_preserved": true,
+        "white_figure_preserved": true
+      }
+    ],
+    "settings": "isolated preview INI; user preferences unchanged"
+  },
+  "native_packaged_startup": {
+    "runs": [
+      {
+        "requested_mode": "light",
+        "effective_theme": "light",
+        "exit_code": 0,
+        "native_gui_backend": true,
+        "main_window_ready_seconds": 3.789263,
+        "process_seconds": 5.077,
+        "persistent_font_cache": true
+      },
+      {
+        "requested_mode": "dark",
+        "effective_theme": "dark",
+        "exit_code": 0,
+        "native_gui_backend": true,
+        "main_window_ready_seconds": 2.961232,
+        "process_seconds": 4.125,
+        "persistent_font_cache": true
+      },
+      {
+        "requested_mode": "system",
+        "effective_theme": "dark",
+        "exit_code": 0,
+        "native_gui_backend": true,
+        "main_window_ready_seconds": 2.964999,
+        "process_seconds": 4.106,
+        "persistent_font_cache": true
+      }
+    ],
+    "deep_strict_codesign": "passed",
+    "user_preference_override": "diagnostic only; not persisted"
+  },
+  "mac_application": {
+    "built": true,
+    "verified": true,
+    "architecture": "arm64",
+    "distribution_signing": "ad_hoc",
+    "notarized": false,
+    "path": "dist/FragGenotyper_V.1.8.3.app"
+  },
+  "windows_application": {
+    "build_script_provided": true,
+    "native_execution_verified": false
+  },
+  "source_sha256": {
+    "FragGenotyper_V.1.8.3.py": "292d6d44be9cffba71a5632b285c9a671f52bc6cf3c0ad19d74a27be325065b9",
+    "FragGenotyper_V.1.8.3.spec": "40c4771716eae77fd63edf851443163f7588e6f5df5f5406b975284b9bfb74cd",
+    "app_style.py": "510dc330f07941e3e18365415907fd113e5143430df8511dc1c7d4aa0bd0e923",
+    "app_window.py": "88000125265ddd5e14da957ad18639ba4a6639d8d1a0a605e527fa39716d84a9",
+    "build_macos.sh": "2eef4a59c7124d2e0a03a52087ea8f8f3a10439e155461740c9ec3ee7bb3d7c2",
+    "build_windows.ps1": "b3f0dfba889220b700ff88fa23c260597b953d84f8aaa8bc12378caccb73eb98",
+    "genotype_core.py": "817cbcb577a476c99b8b5ab11d8631d12e4c2d33d89f9df0001cedfe07a09655",
+    "genotype_export.py": "c178e722396bc100481f82172819cee03e3255a7ae293fc754a7bb32132ac8de",
+    "genotype_panel.py": "d291c0c4521a9e2c0bec663f908154b4e274c5ab962283e1d6011c206bbb8d45",
+    "genotype_plot.py": "858d300fe0a8329e13257c43db49c9b5f7a2bca3ca43e8cdca65b57f4d54e42b",
+    "haplotype_phenotype.py": "a9858cdc4ec1df67e036c64af0c782b7c3660662d4ab3ccf0289971918812810",
+    "launch.command": "3dbf3f4343583c4f8ea7d5197e4ca0557b3a46366feef13cab1c58cb5945c5aa",
+    "phenotype_tab.py": "a746975a2489a8b412cd74111dd92b3505ec321c07354b70ce2b8a1526226072",
+    "plot_toolbar.py": "e7f6c5d2ea3fe2f4a04dec38dd18eb93fe2a774cb7776a8ac9b8e6f5a6369c5b",
+    "project_state.py": "4929bf186ff0f92c6e58f2f49b5fda3615e722541cc2f792ae540537ba92fa50",
+    "requirements.txt": "c5b6041737a9d037b616fe54a45858fc4408952b99b937fc46f47244253aa6d7",
+    "runtime_cache.py": "cd69571b3da4f8d9ea08f1c019f28aa20a95dd4d969e7d840ac231b91c4ce607",
+    "startup.py": "35bef975a4b8e4efd492f6f30e913271edf5f321539ed640aac287dc1c504cf0",
+    "table_io.py": "bb7471ac01108a1715ad418733b037e2a44057eacd8c1166eebcfd431bfae744",
+    "workers.py": "e4ad9225ee6021fdb70f5be15494c9893dfd277339965aa913fa90e779ed7ec1"
+  }
+}

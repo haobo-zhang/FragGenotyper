@@ -1,0 +1,93 @@
+{
+  "inputs": {
+    "mode": "combined",
+    "genotype_file": "FL3_comparison_data.csv",
+    "phenotype_file": null,
+    "embedded_genotypes": null,
+    "origin": null
+  },
+  "columns": {
+    "sample": "Sample",
+    "group": "Genotype",
+    "phenotype_sample": "Sample"
+  },
+  "analysis": {
+    "traits": [
+      "Phenotype"
+    ],
+    "selected_groups": [
+      "Genotype000",
+      "Genotype010",
+      "Genotype012"
+    ],
+    "sample_col": "Sample",
+    "group_col": "Genotype",
+    "phenotype_sample_col": null,
+    "mode": "pairwise",
+    "reference": "Genotype000",
+    "pairs": [
+      [
+        "Genotype000",
+        "Genotype010"
+      ],
+      [
+        "Genotype000",
+        "Genotype012"
+      ],
+      [
+        "Genotype010",
+        "Genotype012"
+      ]
+    ],
+    "correction": "bh",
+    "correction_scope": "per_trait"
+  },
+  "group_order": [
+    "Genotype000",
+    "Genotype010",
+    "Genotype012"
+  ],
+  "plot": {
+    "group_labels": {
+      "Genotype000": "Genotype000",
+      "Genotype010": "Genotype010",
+      "Genotype012": "Genotype012"
+    },
+    "group_colors": {
+      "Genotype000": "#1f77b4",
+      "Genotype010": "#ff7f0e",
+      "Genotype012": "#2ca02c"
+    },
+    "group_order": [
+      "Genotype000",
+      "Genotype010",
+      "Genotype012"
+    ],
+    "y_label": null,
+    "title": null,
+    "font_size": 11,
+    "point_size": 25,
+    "show_points": true,
+    "show_means": true,
+    "annotation_style": "both",
+    "annotation_filter": "all",
+    "annotation_pairs": [
+      [
+        "Genotype000",
+        "Genotype010"
+      ],
+      [
+        "Genotype000",
+        "Genotype012"
+      ],
+      [
+        "Genotype010",
+        "Genotype012"
+      ]
+    ],
+    "palette": "tab10"
+  },
+  "software_version": "1.8.0",
+  "schema_version": 1,
+  "application": "FragGenotyper"
+}

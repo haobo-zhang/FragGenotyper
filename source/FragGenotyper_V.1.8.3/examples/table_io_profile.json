@@ -1,0 +1,104 @@
+{
+  "files": [
+    {
+      "file": "FibLen_BLUP.pheno.tsv",
+      "rows": 3840,
+      "columns": [
+        "FID",
+        "Sample",
+        "Phenotype"
+      ],
+      "read_seconds": 0.006805084005463868,
+      "first_sample": "MAGICGh1448MQ001",
+      "import_info": {
+        "source": "<USER_HOME>/Activate/develop_hap_class/fragGenotyper/V.1.8.0/FibLen_BLUP.pheno.tsv",
+        "format": "whitespace",
+        "delimiter": "\\s+",
+        "header": "none",
+        "header_mode": "auto",
+        "header_detection": "Consistent sample-ID plus numeric phenotype rows; the first sample was retained.",
+        "rows": 3840,
+        "columns": 3,
+        "engine": "c",
+        "chunk_rows": 2048
+      }
+    },
+    {
+      "file": "FibLen_Blup.phe.csv",
+      "rows": 3840,
+      "columns": [
+        "Sample",
+        "FibLen"
+      ],
+      "read_seconds": 0.0022687500022584572,
+      "first_sample": "MAGICGh1448MQ001",
+      "import_info": {
+        "source": "<USER_HOME>/Activate/develop_hap_class/fragGenotyper/V.1.8.0/FibLen_Blup.phe.csv",
+        "format": "csv",
+        "delimiter": ",",
+        "header": "present",
+        "header_mode": "auto",
+        "header_detection": "Conventional column name in the first row.",
+        "rows": 3840,
+        "columns": 2,
+        "engine": "c",
+        "chunk_rows": 2048
+      }
+    }
+  ],
+  "same_sample_set": true,
+  "values_match_including_missing": true,
+  "valid_phenotypes": 3707,
+  "gui_import_worst_case_distinct_groups": [
+    {
+      "file": "FibLen_BLUP.pheno.tsv",
+      "total_seconds": 0.1250094999995781,
+      "heartbeats": 6,
+      "groups": 3840,
+      "max_event_gap_seconds": 0.09101600000576582,
+      "read_seconds": 0.0048249159881379455,
+      "prepare_seconds": 0.020497917008469813,
+      "gui_commit_seconds": 0.07882629199593794,
+      "rows": 3840,
+      "pair_items": 0,
+      "annotation_items": 0,
+      "table_import": {
+        "source": "<USER_HOME>/Activate/develop_hap_class/fragGenotyper/V.1.8.0/FibLen_BLUP.pheno.tsv",
+        "format": "whitespace",
+        "delimiter": "\\s+",
+        "header": "none",
+        "header_mode": "auto",
+        "header_detection": "Consistent sample-ID plus numeric phenotype rows; the first sample was retained.",
+        "rows": 3840,
+        "columns": 3,
+        "engine": "c",
+        "chunk_rows": 2048
+      }
+    },
+    {
+      "file": "FibLen_Blup.phe.csv",
+      "total_seconds": 0.13598545800778084,
+      "heartbeats": 3,
+      "groups": 3840,
+      "max_event_gap_seconds": 0.11692600000242237,
+      "read_seconds": 0.0026404590025776997,
+      "prepare_seconds": 0.014207707994501106,
+      "gui_commit_seconds": 0.10255054100707639,
+      "rows": 3840,
+      "pair_items": 0,
+      "annotation_items": 0,
+      "table_import": {
+        "source": "<USER_HOME>/Activate/develop_hap_class/fragGenotyper/V.1.8.0/FibLen_Blup.phe.csv",
+        "format": "csv",
+        "delimiter": ",",
+        "header": "present",
+        "header_mode": "auto",
+        "header_detection": "Conventional column name in the first row.",
+        "rows": 3840,
+        "columns": 2,
+        "engine": "c",
+        "chunk_rows": 2048
+      }
+    }
+  ]
+}

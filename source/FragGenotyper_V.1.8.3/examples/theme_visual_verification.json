@@ -1,0 +1,26 @@
+{
+  "passes": [
+    {
+      "mode": "light",
+      "effective_theme": "light",
+      "analysis_preserved": true,
+      "selected_groups_preserved": true,
+      "white_figure_preserved": true
+    },
+    {
+      "mode": "dark",
+      "effective_theme": "dark",
+      "analysis_preserved": true,
+      "selected_groups_preserved": true,
+      "white_figure_preserved": true
+    },
+    {
+      "mode": "light",
+      "effective_theme": "light",
+      "analysis_preserved": true,
+      "selected_groups_preserved": true,
+      "white_figure_preserved": true
+    }
+  ],
+  "settings": "isolated preview INI; user preferences unchanged"
+}

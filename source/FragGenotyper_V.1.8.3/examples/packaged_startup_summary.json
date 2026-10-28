@@ -1,0 +1,33 @@
+{
+  "runs": [
+    {
+      "requested_mode": "light",
+      "effective_theme": "light",
+      "exit_code": 0,
+      "native_gui_backend": true,
+      "main_window_ready_seconds": 3.789263,
+      "process_seconds": 5.077,
+      "persistent_font_cache": true
+    },
+    {
+      "requested_mode": "dark",
+      "effective_theme": "dark",
+      "exit_code": 0,
+      "native_gui_backend": true,
+      "main_window_ready_seconds": 2.961232,
+      "process_seconds": 4.125,
+      "persistent_font_cache": true
+    },
+    {
+      "requested_mode": "system",
+      "effective_theme": "dark",
+      "exit_code": 0,
+      "native_gui_backend": true,
+      "main_window_ready_seconds": 2.964999,
+      "process_seconds": 4.106,
+      "persistent_font_cache": true
+    }
+  ],
+  "deep_strict_codesign": "passed",
+  "user_preference_override": "diagnostic only; not persisted"
+}

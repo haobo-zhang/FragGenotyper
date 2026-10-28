@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "version": "1.8.3",
+  "pid": 46061,
+  "startup_status": "ready",
+  "startup_elapsed_seconds": 3.484387,
+  "gui_thread_id": 8318968192,
+  "stages": [
+    {
+      "label": "NumPy · 数值计算",
+      "module": "numpy",
+      "status": "loaded",
+      "import_thread_id": 6358511616,
+      "import_thread_is_gui": false,
+      "started_elapsed_seconds": 0.149823,
+      "elapsed_seconds": 0.049966
+    },
+    {
+      "label": "pandas · 数据表",
+      "module": "pandas",
+      "status": "loaded",
+      "import_thread_id": 6358511616,
+      "import_thread_is_gui": false,
+      "started_elapsed_seconds": 0.268016,
+      "elapsed_seconds": 0.651218
+    },
+    {
+      "label": "SciPy · 统计分析",
+      "module": "scipy.stats",
+      "status": "loaded",
+      "import_thread_id": 6358511616,
+      "import_thread_is_gui": false,
+      "started_elapsed_seconds": 0.832816,
+      "elapsed_seconds": 0.870456
+    },
+    {
+      "label": "scikit-learn · 聚类",
+      "module": "sklearn.cluster",
+      "status": "loaded",
+      "import_thread_id": 6358511616,
+      "import_thread_is_gui": false,
+      "started_elapsed_seconds": 1.702649,
+      "elapsed_seconds": 0.691752
+    },
+    {
+      "label": "Matplotlib · 绘图库",
+      "module": "matplotlib",
+      "status": "loaded",
+      "import_thread_id": 6358511616,
+      "import_thread_is_gui": false,
+      "started_elapsed_seconds": 2.394373,
+      "elapsed_seconds": 0.101343
+    },
+    {
+      "label": "Matplotlib · 字体缓存",
+      "module": "matplotlib.font_manager",
+      "status": "loaded",
+      "import_thread_id": 6358511616,
+      "import_thread_is_gui": false,
+      "started_elapsed_seconds": 2.495987,
+      "elapsed_seconds": 0.005003
+    },
+    {
+      "label": "Matplotlib · Qt 绘图支持",
+      "module": "matplotlib.backends.backend_qtagg",
+      "status": "loaded",
+      "import_thread_id": 6358511616,
+      "import_thread_is_gui": false,
+      "started_elapsed_seconds": 2.501793,
+      "elapsed_seconds": 0.097298
+    },
+    {
+      "label": "FragGenotyper · 分型模块",
+      "module": "genotype_core",
+      "status": "loaded",
+      "import_thread_id": 6358511616,
+      "import_thread_is_gui": false,
+      "started_elapsed_seconds": 2.598353,
+      "elapsed_seconds": 0.047837
+    },
+    {
+      "label": "FragGenotyper · 表型模块",
+      "module": "haplotype_phenotype",
+      "status": "loaded",
+      "import_thread_id": 6358511616,
+      "import_thread_is_gui": false,
+      "started_elapsed_seconds": 2.646422,
+      "elapsed_seconds": 0.066449
+    }
+  ],
+  "main_window_ready": true,
+  "main_window_visible": true,
+  "main_window_constructed_on_gui_thread": true,
+  "main_window_ready_on_gui_thread": true,
+  "appearance_mode": "dark",
+  "appearance_theme": "dark",
+  "matplotlib_cache_path": "<USER_HOME>/Library/Caches/FragGenotyper/matplotlib",
+  "matplotlib_cache_source": "application_cache",
+  "matplotlib_cache_temporary": false,
+  "matplotlib_packager_cache_replaced": true,
+  "main_window_construction_thread_id": 8318968192,
+  "main_window_ready_thread_id": 8318968192,
+  "main_window_ready_elapsed_seconds": 2.961232,
+  "main_window_ready_unix_seconds": 1793020872.6983502,
+  "diagnostic_autoclose_requested": true
+}

@@ -1,0 +1,10 @@
+........................................................................ [ 40%]
+........................................................................ [ 80%]
+....................................                                     [100%]
+=============================== warnings summary ===============================
+tests/test_analysis_enhancements.py::test_welch_confidence_interval_and_df_match_scipy[first1-second1]
+  <USER_HOME>/Library/Python/3.12/lib/python/site-packages/scipy/stats/_axis_nan_policy.py:579: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+    res = hypotest_fun_out(*samples, **kwds)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+180 passed, 1 warning in 34.54s
