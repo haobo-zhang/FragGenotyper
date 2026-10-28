@@ -1,5 +1,18 @@
 # FragGenotyper README
 
+## Latest release 1.8.3
+
+Download [FragGenotyper 1.8.3](https://github.com/haobo-zhang/FragGenotyper/releases/tag/v1.8.3) for the Apple Silicon macOS application, the complete source package, checksums and validation records.
+
+- [Current source and instructions](source/FragGenotyper_V.1.8.3/README.md): source, tests, text examples and build scripts. Example PNG/PDF illustrations are supplied in the complete source ZIP attached to the release.
+- Version 1.8.3 adds system/light/dark themes, selectable haplotype plots, responsive imports, explicit missing-genotype handling and configurable phenotype comparisons.
+- The recorded regression run passed 180 tests. The Mac arm64 package is ad-hoc signed, not Apple-notarized. Windows has a build script but no verified 1.8.3 executable; native Windows/Linux execution of this version remains unverified.
+- Current grouping options are order-dependent similarity grouping (matrix and one-by-one modes) and K-means. The similarity tree is a separate visualization. The examples do not establish clinical HLA typing accuracy, superiority over other software or new biological conclusions.
+
+The remaining documentation below describes legacy versions. Use the current source README and release assets for version 1.8.3; older CLI names and binaries are not evidence of current-version cross-platform validation.
+
+---
+
 code by zhanghaobo
 
 written in 2024.11
